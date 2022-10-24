@@ -1,5 +1,6 @@
-pickles
+pickle-mixin
 scikit-learn
 numpy
 streamlit
 pandas
+protobuf
