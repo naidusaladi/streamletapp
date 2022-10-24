@@ -53,7 +53,4 @@ def main():
     if(st.button("Go for Test")):
         diagnosis=diabetes_prediction([Pregnancie,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age])
     st.success(diagnosis)
-
-if __name__=="__main__":
-    
-    main()
+main()
